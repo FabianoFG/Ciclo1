@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: beige;
+}
+main{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    border: 2px dotted black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: seashell;
+}
+h2{
+    font-size: 0.8em;
+    padding: 5px 0 9px 0;
+}
+.removeBullet{
+    list-style: none;
+}
+.margemEsq{
+    margin-left: 25px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+}
+.inLine{
+    display: inline-block;
+    background-color: aqua;
+}
+ul#listaTransp > li{
+    display: inline-block;
+    border: 1px solid black;
+}

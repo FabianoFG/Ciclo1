@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#imagem{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/blindado.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}

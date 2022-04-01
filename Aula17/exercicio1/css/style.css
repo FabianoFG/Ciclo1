@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --corFundo1: rgb(255,165,0);
+    --corFundo2: rgb(255,255,0);
+}
+div#forma1{
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    background-color: var(--corFundo1);
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(0 0 0);
+}
+div#forma2{
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    background-color: var(--corFundo2);
+    border: 1px solid black;
+}

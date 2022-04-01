@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercício 1 Aula 20</title>
+</head>
+<body>
+    <!-- <main> -->
+        <section>
+            <form id="formulario" action="post">
+                <fieldset><!--Nome-->
+                    <legend>Cadastro de usuário</legend>
+                    <label for="nomeUsu">Nome</label>
+                    <input type="text" required class="borda" id="nomeUsu" name="nomeUsu" placeholder="Digite seu nome" value="">
+                    <label for="SobreNomeUsu">Sobrenome</label>
+                    <input type="text" required class="borda" id="SobreNomeUsu" name="SobreNomeUsu" value="">
+                    <label for="DataNasciUsu">Nascimento</label>
+                    <input type="date" required class="borda" id="DataNasciUsu" name="DataNasciUsu" value="">
+                </fieldset>
+                <fieldset><!--Sexo-->
+                    <legend>Sexo</legend>
+                    <label>Masculino</label>
+                    <input type="radio" required name="sexoUsu" value="M">
+                    <label>Feminino</label>
+                    <input type="radio" required name="sexoUsu" value="F">
+                </fieldset>
+                <fieldset><!--Curso-->
+                    <legend>Curso</legend>
+                    <label for="cursoHtmlCss">HTML/CSS</label>
+                    <input type="checkbox" required name="cursoHtmlCss" value="HTML-CSS">
+                    <label for="cursoJS">JavaScript</label>
+                    <input type="checkbox" required name="cursoJS" value="JavaScript">
+                    <label for="cursoNodejs">NodeJS</label>
+                    <input type="checkbox" required name="cursoNodejs" value="NodeJS">
+                    <label for="cursoReactjs">HTML/CSS</label>
+                    <input type="checkbox" required name="cursoReactjs" value="ReactJS">
+                </fieldset>
+                <fieldset><!--Nível-->
+                    <Legend>Nível</Legend>
+                    <select class="borda largo">
+                        <option value="Selecione">Selecione</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Pleno">Pleno</option>
+                        <option value="Senior">Senior</option>
+                    </select>              
+                </fieldset>
+                <fieldset><!--Texto-->
+                    <label>Escreva algo sobre você</label>
+                    <textarea name="maisSobreUsu" id="maisSobreUsu" class="borda" cols="60" rows="20"></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="email">E-mail</label>
+                    <input type="email" class="borda largo" name="email">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="borda largo" name="senha">
+                    <input type="submit" name="enviarDados" value="ENVIAR">
+                </fieldset>
+            </form>
+        </section>
+    <!-- </main> -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --corFundo: rgb(0,0,0);
+    --corDestaque: rgb(255,0,0);
+}
+div#forma1{
+    width: 150px;
+    height: 150px;
+    margin: 200px auto;
+    border-radius: 100%;
+    background-color: var(--corFundo);
+}
+div#forma1:hover{
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    border-radius: 100%;
+    background-color: var(--corDestaque);
+}

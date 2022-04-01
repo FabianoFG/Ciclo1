@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    width: 100%;
+    background-color: #212121;
+}
+header {
+    height: 40px;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    width: 100%;      
+}
+footer {
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18;
+    color: #fff;
+}
+.flex {
+    display: flex;
+}
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+.botao {
+    padding: 0 20px 0 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: #f9a825;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.campo {
+    width: 225px;
+    height: 25px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+#icone {
+    width: 30%;
+    height: 100%;
+}
+#icone > #logo {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+#menu {
+    width: 45%;
+    height: 100%;       
+}
+#caixa {
+    width: 600px;
+    height: 250px;
+    margin: 150px auto;
+    padding: 15px;
+    flex-direction: row;
+    border: 1px solid #212121;
+}
+#texto {
+    width: 50%;
+    height: 200px;
+    padding: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+#login {
+    width: 50%;
+    height: 100%;    
+    border-left: 2px dashed #212121;
+    padding: 20px;
+    flex-direction: column;
+}
+#titulo {
+    width: 225px;
+    height: 25px;
+    margin: 10px;
+    padding: 0 85px 0 85px;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+#entrar {
+    width: 225px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+#entrar:hover {
+    width: 225px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #f9a825;
+}
+@media screen and (max-width: 600px) {
+    main {
+        height: 80%;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu {
+        width: 70%;
+    }
+    #caixa {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+    #caixa > #texto {
+        width: 300px;
+        height: 50%;
+    }
+    #caixa > #login {
+        border-top: 2px dashed #212121;
+        border-left: 0;
+    }
+}
+@media screen and (max-height: 700px) {
+    main {
+        height: 80%;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+    #caixa {
+        margin: auto;
+    }
+}

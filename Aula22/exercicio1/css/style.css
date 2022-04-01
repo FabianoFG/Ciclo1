@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+main{
+    width: 50%;
+    height: auto;
+    margin: 25px auto;
+    background-color: aquamarine;
+}
+main > header{
+    width: 100%;
+    height: 75px;
+    background-color: orange;
+}
+main > section{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+main > section > #forma1{
+    width: 80%;
+    height: 100vh;
+    background-color: green;
+}
+main > section > #forma2{
+    width: 20%;
+    height: 100vh;
+    background-color: blue;
+}

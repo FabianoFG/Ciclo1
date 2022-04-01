@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 20px;
+}
+article#elePai{
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    background-color: beige;
+    font-size: 1rem;
+}
+article#elePai > p#eleFilho{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}

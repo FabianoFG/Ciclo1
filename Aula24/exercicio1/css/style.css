@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+    font-weight: bold;
+    --fontePadrao: 'Italiana', serif;
+}
+.flex{
+    display: flex;
+}
+body{
+    background: beige;
+}
+header, main, footer{
+    width: 80%;
+    margin: auto;
+}
+footer{
+    height: 80px;
+    background-color: green;
+}
+header{
+    height: 75px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    font-family: var(--fontePadrao);
+    font-size: clamp(0.8rem, 5vw, 4rem);
+    color: red;
+}
+header > nav#menu-principal{
+    width: auto;
+    height: 100%;
+}
+header > nav#menu-principal > ul#menu-lista{
+    width: auto;
+    height: 100%;
+}
+header > nav#menu-principal > ul#menu-lista > li{
+    width: auto;
+    height: 100%;
+    align-items: center;
+}
+a{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: var(--fontePadrao);
+    font-size: clamp(1rem, 1.2vw, 2rem);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+a.vai:hover{
+    background-color: red;
+    color: white;
+    transition: 2s;
+}
+main > section#section-cards{
+    width: 100%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+main > section#section-cards > div.card{
+    width: 320px;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+.icons-list{
+    margin-right: 2px;
+    margin-bottom: 2px;
+    font-size: 2rem;
+}
+main > section#section-cards > div.card > figure.card-img-pizza{
+    width: 100%;
+    padding: 2px;
+}
+main > section#section-cards > div.card > figure.card-img-pizza > img.img-pizza{
+    width: 100%;
+}
+main > section#section-cards > div.card > form.formTamanhoPizza{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > section#section-cards > div.card > form.formTamanhoPizza > div > label{
+    width: 30px;
+    font-size: 14px;
+    font-family: var(--fontePadrao);
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+h2.sub-titulo-pizza{
+    font-size: 1.4rem;
+    font-family: var(--fontePadrao);
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.btn{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    font-family: var(--fontePadrao);
+    background-color: green;
+    cursor: pointer;
+}
