@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    --corBarras: #212121;
+    --corDestaque:#f9a825;
+    --corFundo: #ffffff;
+    --corTitulos: #ffffff;
+    --corTexto: #000000;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--corFundo);
+    align-content: center;
+}
+header, footer{
+    width: 100%;
+}
+header{
+    height: 40px;
+    padding: 0 8% 0 8%;
+    background-color: var(--corBarras);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header > span{
+    font-size: 1.8rem;
+    color: var(--corTitulos);    
+}
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+header > nav > ul > li > a{
+    padding: 5px 20px 5px 20px;
+    font-size: 1.4rem;
+    color: var(--corTitulos);
+    border-radius: 15px;
+    text-decoration: none;
+}
+header > nav > ul > li > a:hover{
+    padding: 5px 20px 5px 20px;
+    font-size: 1.4rem;
+    color: var(--corTitulos);
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: var(--corDestaque);
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 80px;
+    margin-bottom: 0;
+    background-color: var(--corBarras);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > p{
+    font-size: 1.8rem;
+    color: var(--corTitulos);
+}
+main > section{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main > section > p{
+    width: 300px;
+    height: 200px;
+    padding: 40px 20px 40px 20px;
+    border-right: 1px dashed black;
+    font-size: 1.4rem;
+    color: var(--corTexto);
+    text-align: justify;
+    text-justify: distribute;
+}
+main> section > form{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main > section > form > label#labelEmail{
+    margin: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--corTexto);
+    text-align: center;
+}
+main > section > form > input#email{
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+main > section > form > input#botao{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 1.4rem;
+}
+main > section > form > input#botao:hover{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: var(--corDestaque);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+main > section > input{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+@media screen and (max-width: 700px){
+    main > section{
+        flex-direction: column;
+        align-items: center;
+    }
+    main > section > p{
+        height: auto;
+        padding: 20px 40px 20px 40px;
+        border-right: none;
+        border-bottom: 1px dashed black;
+    }
+    main> section > form{
+        height: auto;
+    }
+}

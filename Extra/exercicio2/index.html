@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercício 2 Extra</title>
+</head>
+<body>
+    <header class="flex coluna centralizar">
+        <div id="barra-titulo"class="flex coluna centralizar">
+            <h1>ME ACHA!</h1>
+            <h3>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h3>
+        </div>
+        <div id="barra-logo" class="flex coluna centralizar">
+            <div id="topo"></div>
+            <div id="quadro" class="flex centralizar">
+                <div id="circ" class="flex centralizar">
+                    <span class="material-icons">
+                        travel_explore
+                    </span>
+                </div>
+            </div>
+            <div id="base"></div>
+        </div>
+    </header>
+    <main class="flex coluna centralizar">
+        <form id="form-cep" class="flex coluna" method="post">
+            <label for="cep">Cep</label>
+            <input class="campo" type="text" name="cep" value="">
+            
+            <label for="rua">Rua</label>
+            <input class="campo" type="text" name="rua" value="">
+
+            <label for="bairro">Bairro</label>
+            <input class="campo" type="text" name="bairro" value="">
+
+            <label for="cidade">Cidade</label>
+            <input class="campo" type="text" name="cidade" value="">
+
+            <label for="estado">Estado</label>
+            <input class="campo" type="text" name="estado" value="">
+
+            <input id="botao" type="submit" value="BUSCAR">
+        </form>
+    </main>
+</body>
+</html>
