@@ -1,0 +1,8 @@
+Exercício 27
+
+1) É um conjunto de elementos como protocolo, endereço de domínio, referências de ocalização da página.
+Ex: http://www.youtube.com.
+2) É o protocolo de rede usado para páginas html, na comunicação entre o navgador e o webserver.
+HyperText Transfer Protocol.
+3) São prefixos disponibilizados pelos desenvolvedores que permitem testar novas funcionalidades
+do html, em um determinado navegador web.

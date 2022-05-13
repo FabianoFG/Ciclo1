@@ -1,0 +1,5 @@
+Exercício 24
+
+1) Espaçamento entre o conteúdo e seu contêiner.
+2) Não.
+3) Fornece informações adicionais ao passar o mouse em cima do elemento.

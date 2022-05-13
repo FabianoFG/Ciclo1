@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div#janelaCliente{
+        width: 400px;
+        height: 200px;
+        padding: 5px;
+        background-color: chocolate;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    div#janelaProduto{
+        width: 400px;
+        height: 200px;
+        padding: 5px;
+        background-color: purple;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .mostrar{
+        display: block;
+    }
+    .fechar{
+        display: none;
+    }
+</style>
+<body>
+    <!-- Mostrar ou ocultar elementos html -->
+    <div id="janelaCliente" class="mostrar">
+        Janela de Cliente
+    </div>
+    <div id="janelaProduto" class="fechar">
+        Janela de Produto
+    </div>
+</body>
+</html>

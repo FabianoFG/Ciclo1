@@ -1,0 +1,11 @@
+Questão 21
+
+1) Não. Pode estar na mesma. Apenas é necessário indicar o caminho correto no link src=""
+2) Não. Pode possuir, mas não possui por padrão.
+3) É a área de exibição da página no navegador.
+
+Questão 22
+
+1) Pode. E também por >.
+2) Não. Ele altera o tamanho para renderização, mas não altera o tamanho do arquivo original
+3) Não. É a tag <h1>a <h6>

@@ -1,0 +1,5 @@
+Exercício 23
+
+1) É o elemento que contém todo o conteúdo da página.
+2) Não. caso não seja definida no style ela é atribuída pelo navegador, podendo variar
+3) Pode, mas não é recomendável. 

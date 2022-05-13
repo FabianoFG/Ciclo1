@@ -1,0 +1,9 @@
+Exercício 19
+1) A a tag <article>
+2) Pode, mas não é recomendável, pois a div não é um elemento semântico para texto.
+
+Exercício 20
+1) A propriedade background. Ex: background: linear-gradient(to left, rgb(),rgb()); 
+2) Não. É mais recomedável a aplicação por arquivo .css.
+3) A unidade percentual(%) faz com que o elemento tenha dimenões proporcionais ao seu
+conteinêr. Já a unidade pixel(px) não depende do contêiner e sim do monitor.

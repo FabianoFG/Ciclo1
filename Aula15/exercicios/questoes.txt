@@ -1,0 +1,5 @@
+Exercício 25
+
+1) Usando a tag <a> e indicando um nome de elemento, id ou classe no href.
+2) Passar o endereço da página.
+3) A tag <nav>
