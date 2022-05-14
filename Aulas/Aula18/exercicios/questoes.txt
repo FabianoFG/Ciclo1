@@ -1,0 +1,6 @@
+Exercício 28
+
+1) Imprimendo um texto na tela e verificando através do dev tools, na área de
+valores calculados.
+2) Normalmente não. Apesar de que o microsoft edge possui um recurso de sincronização, que
+atualiza automaticamente o código fonte, quando modificado no dev tools.
