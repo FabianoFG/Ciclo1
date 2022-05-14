@@ -1,0 +1,5 @@
+Exercício 30
+
+1) box-shadow.
+2) O método do formulário deve ser post ou get. O que proporciona segurança são os
+certificados de segurança SSL, anexos ao protocolo http(https).

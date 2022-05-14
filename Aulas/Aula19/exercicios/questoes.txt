@@ -1,0 +1,5 @@
+Exercício 29
+
+1) A diferença é que em é relativa ao elemento pai e rem é relativa ao root.
+2) No elemento :root. Ex: --nomeDaVariavel: valorDaVariavel;
+para acessá-la: var(--nomeDaVariavel).

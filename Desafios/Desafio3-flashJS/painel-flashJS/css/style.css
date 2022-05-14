@@ -50,6 +50,7 @@ body{
 }
 #menu > nav > ul > li > a{
     width: 100%;
+    display: block;
     font-size: 1.6rem;
     text-decoration: none;
     color: var(--corTexto);
